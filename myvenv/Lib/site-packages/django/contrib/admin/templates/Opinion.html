@@ -1,0 +1,125 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="es">
+
+<head>
+<link rel="icon" href="img/logo4.png" type="image/png" sizes=100px>
+<link rel="stylesheet" href="css/styleOpinion.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=yes">
+<meta charset="utf-8"/>   
+<title>Lugares</title>
+</head>
+
+<body>
+    <header>
+        <div class="encabezado">
+               
+         
+               <p class="logo" align="left"><img src="img/logo4.png"></p>
+               <h1 class="titulo">Visita Uruguay</h1>
+        </div>
+        <div class="menu">
+            <table class="tablaBotones">
+             <td class="opcion"><a class="boton" href="Inicio.html">Inicio</a></td>
+         </table>
+     </div>
+
+    </header>
+    <main>
+        <br>
+        <br>
+        <br>
+
+    
+        <section>
+            <div class="rectangulo">
+            <h2 class="Texto">Dejanos tu opinion</h2>
+        </div>
+            <center>
+        <div class="Formularios">
+            <form action="Opinion.html" method="POST">
+               
+           
+            
+             <label for="name" class="labels">Ingrese Nombre: </label></th>
+              <input type="text" id="name" class="cajasTexto" maxlength="25" placeholder="Ingrese Nombre" required> 
+                <br>
+            
+                
+                <label for="apellido" class="labels">Ingrese Apellido: </label>
+                <input type="text" id="apellido" class="cajasTexto" maxlength="25" placeholder="Ingrese Apellido" required>
+                <br>
+         
+               
+                <label for="edad" class="labels">Ingrese Edad: </label>
+                <input type="number" id="edad" class="cajasTexto" maxlength="3" placeholder="Ingrese Edad" required> 
+                <br>
+           
+               
+                <label for="email" class="labels">Ingrese Email: </label>
+               <input type="email" id="email" class="cajasTexto" maxlength="50" placeholder="Ingrese Email" required> 
+                <br>
+           
+                
+           
+                <label for="sexo" class="labels">Sexo: </label></th>
+                
+                <input type="radio" id="hombre" name="Sexo" value="Hombre" required>Hombre
+               
+                <input type="radio" id="mujer" name="Sexo" value="Mujer">Mujer
+                
+                <input type="radio" id="otro" name="Sexo" value="Otro">Otro
+                <br>
+           
+           
+               <label for="fechanac" class="labels">Ingrese fecha de nacimiento: </label>
+            <input type="datetime-local" name="fechanac" size="30" class="cajasTexto">
+           <br>
+               
+                <label for="punto" class="labels">Puntuacion: </label>
+                <select name="puntuacion" id="punto" class="cajasTexto"><option value="1 Puntos">1 Puntos</option><option value="2 Puntos">2 Puntos</option><option value="3 Puntos">3 Puntos</option><option value="4 Puntos">4 Puntos</option><option value="5 Puntos">5 Puntos</option></select>
+            <br>
+           
+              
+                <th><label for="caja" class="labels">Comentarios:</label></th>
+               <br>
+                <th><textarea name="area" id="caja" class="TextoEnArea" cols="40" rows="10" maxlength="400"></textarea>
+          <br>
+            
+              <input type="submit" class="botones" name="submit" value="Enviar">
+              <input type="reset" class="botones" name="reset" value="Limpiar">
+             
+           
+       
+            </form>
+ 
+        </div>
+    </center>
+        </section>
+        </main>
+        <br>
+        <br>
+
+        <hr class="linea">
+        <br>
+        <footer>
+            <div class="finalpagina">
+                <div class="InfoLocal">
+                <p class="textolocal">Asociación con el ministerio de turismo del Uruguay | 18 de Julio esq. Yacarè
+                </p> 
+                <p class="textolocal">Telefono: 4332578 Celular: 095357855
+                </p>
+            </div>
+                <div class="redesdiv">
+                <p class="redes">Redes sociales</p>
+                                    <a href="https://www.facebook.com"><img class="iconoRedes" src="img/iconofb.png"></a>
+                                    <a href="https://www.twitter.com"><img class="iconoRedes" src="img/iconotw.png"></a>
+                                    <a href="https://www.instagram.com"><img class="iconoRedes" src="img/iconoig.png"></a>
+                </div>
+    
+    
+            </div>
+    
+        </footer>
+        </body>
+        </html>
